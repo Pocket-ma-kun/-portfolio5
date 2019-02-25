@@ -1,0 +1,324 @@
+﻿@charset "utf-8";
+
+/*------------------------------------------------------------------------------
+XXXXXXXXXX - CSS Modules Import
+Date: 2014-0X-XX
+Copyright (C) XXX. All Rights Reserved.
+------------------------------------------------------------------------------*/
+
+/* ----------------------------------------
+
+content
+
+---------------------------------------- */
+
+#content {
+}
+
+/* ----------------------------------------
+
+mvSec
+
+---------------------------------------- */
+
+.mvSec {
+	height: 518px;
+	position: relative;
+	text-align:center;
+	overflow: hidden;
+}
+
+.mvSec #mvImg{
+	width: 1500px;
+	left: 50%;
+	margin-left: -750px;
+	position: absolute;
+}
+
+.mvSec .mvTit{
+	padding-top:163px;
+	position:relative;
+	z-index: 100;
+	margin-bottom: 152px;
+}
+.mvSec .mvTit a {
+	outline: none;
+	display: inline-block;
+	padding: 50px 173px 50px 140px;
+}
+
+.mvSec .mvBnr{
+	width:960px;
+	margin: 0 auto;
+}
+.mvSec .mvBnr li {
+	display: inline-block;
+}
+.mvSec .mvBnr a{
+	position: relative;
+	z-index: 999;
+}
+
+.mvSec .movieBox{
+	position: relative;
+	text-align:center;
+	margin-top:50px;
+	height: 146px;
+	background :url(/files/img/top/bg_movie.png);
+	z-index: 100;
+}
+
+.mvSec .movieBox .movie{
+	position: absolute;
+	width:960px;
+	left:50%;
+	margin-left:-480px;
+	margin-top: 37px;
+}
+
+.mvSec .movieBox .movieBtn{
+	position: absolute;
+	top:55px;
+	left:50%;
+	margin-left: 319px;
+}
+
+
+/* ----------------------------------------
+
+main
+
+---------------------------------------- */
+#container{
+	min-width: 960px;
+}
+
+.contents01 {
+	background: url(/files/img/common/bg_contents_01.png);
+}
+
+
+/* 2box
+------------------------------- */
+.contents01 ul.btn2box {
+	width: 960px;
+	padding-top: 30px;
+	margin: 0 auto 20px;
+}
+
+.contents01 ul.btn2box li {
+	width: 480px;
+	float: left;
+}
+
+.contents01 ul.btn2box li.box01{
+	position: relative;
+	background: url(/files/img/top/img_2box_01.jpg) no-repeat;
+	height: 240px;
+}
+
+.contents01 ul.btn2box li .btn01{
+	position: absolute;
+	left: 230px;
+	top:0px;
+}
+
+.contents01 ul.btn2box li span{
+	display: inline-block;
+	letter-spacing: 0.12em;
+	margin:26px 0 0 270px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	z-index: 1000;
+	position: relative;
+	line-height: 1.4;
+}
+.contents01 ul.btn2box li p{
+	color: #fff;
+	margin:12px 0 0 270px;
+	width: 170px;
+	line-height: 1.6em;
+	z-index: 1000;
+	position: relative;
+}
+.contents01 ul.btn2box li.box02 span {
+	margin:26px 0 0 266px;
+}
+.contents01 ul.btn2box li.box02 p {
+	margin: 9px 0 0 265px;
+	width: 188px;
+}
+
+.contents01 ul.btn2box li a{
+	text-decoration: none;
+	display: block;
+    height: 100%;
+}
+.contents01 ul.btn2box li.box02{
+		position: relative;
+	background: url(/files/img/top/img_2box_02.jpg) no-repeat;
+	height: 240px
+}
+
+.contents01 ul.btn2box li .btn02{
+	position: absolute;
+	left: 230px;
+	top:0px;
+}
+
+/* 4box01
+------------------------------- */
+.contents01 ul.btn4box01 {
+	width: 960px;
+	margin: 0 auto 30px;
+	padding-bottom: 30px;
+}
+
+.contents01 ul.btn4box01 li{
+	float: left;
+	margin-right: 12px;
+}
+
+.contents01 ul.btn4box01 li:last-child {
+	margin-right: 0;
+}
+
+/* 4box01
+------------------------------- */
+.contents02 ul.btn4box02 {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 44px;
+}
+
+.contents02 ul.btn4box02 li{
+	float: left;
+	margin-right: 32px;
+}
+
+.contents02 ul.btn4box02 li:last-child {
+	margin-right: 0;
+}
+
+/* news
+------------------------------- */
+.newsArea{
+	background-color: #042040;
+	color: #fff;
+}
+
+.newsArea .newsAreaIn{
+	width: 960px;
+	margin: 0 auto;
+	padding: 21px 0 ;
+}
+
+.newsArea a:link,
+.newsArea a:visited,
+.newsArea a:active {
+	color: #fff;
+}
+
+.newsArea .newsAreaIn .newsBox{
+	position: relative;
+	float: left;
+	padding-top: 20px;
+	width: 670px;
+}
+
+.newsArea .newsAreaIn .newsBox .newsTit{
+	width: 670px;
+	border-bottom: solid 1px #46596d;
+	padding-bottom: 17px;
+	margin-bottom: 15px;
+}
+
+.newsArea .newsAreaIn .newsBox ul a{
+	display: inline-block;
+	width: 569px;
+	margin-left: 15px;
+}
+
+.newsArea .newsAreaIn .newsBox .moreBtn{
+	position: absolute;
+	top:23px;
+	right:0;
+}
+.newsArea .newsAreaIn .newsBox .moreBtn img {
+	vertical-align: middle;
+}
+
+.newsArea .newsAreaIn .newsBox ul{
+	font-size: 14px;
+}
+
+.newsArea .newsAreaIn .newsBox li{
+	margin-bottom: 10px;
+}
+
+.newsArea .newsAreaIn .newsBox li span{
+	float:left;
+	font-family: "Arial";
+	font-weight: 700;
+}
+
+.newsArea .newsAreaIn .newsBox li a{
+}
+
+/* form
+------------------------------- */
+.newsArea .newsAreaIn .formBox{
+	color: #00152c;
+	float:right;
+	width:250px;
+	height: 218px;
+	background-color: #f7f8f9;
+}
+
+.newsArea .newsAreaIn .formBox .formBoxIn{
+	padding: 20px;
+}
+
+.newsArea .newsAreaIn .formBox p{
+	margin-bottom: 12px;
+}
+
+.newsArea .newsAreaIn .formBox img{
+	margin-bottom: 12px;
+}
+
+.newsArea .newsAreaIn .formBox a img{
+	margin-bottom: 0;
+}
+
+/* ----------------------------------------
+
+clearfix (必要なければ消す)
+
+---------------------------------------- */
+
+/* Modern Browsers
+------------------------------- */
+.newsArea .newsAreaIn .newsBox li:after,
+.newsArea .newsAreaIn:after,
+.contents02 ul.btn4box02:after,
+.contents01 ul.btn4box01:after,
+.contents01 ul.btn2box:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: ".";
+	line-height: 0;
+}
+
+/* Legacy IE
+------------------------------- */
+.newsArea .newsAreaIn .newsBox li,
+.newsArea .newsAreaIn,
+.contents02 ul.btn4box02,
+.contents01 ul.btn4box01,
+.contents01 ul.btn2box {
+	*zoom: 1;
+}
